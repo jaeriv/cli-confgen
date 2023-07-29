@@ -13,7 +13,6 @@ pip install requirements.txt
 ## Usage & Commands
 
 ```
-cli-confgen
 generate-config - Generate configuration file.
 list-devices -  List all devices within a site.
 list-sites - List sites or groups within a variable file.
