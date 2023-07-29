@@ -78,7 +78,7 @@ dallas:
     eth_1_1_ip: "10.8.1.15"
     eth_1_1_subnet_mask: "255.255.255.0"
   txdal02sw01:
-    golden_config: "3011-golden"
+    golden_config: "3560-golden"
     config_file: "txdal02sw01.txt"
     default_gw: "10.8.2.1"
     hostname: "txdal02sw01"
@@ -93,7 +93,7 @@ waco:
     eth_1_1_ip: "10.8.3.15"
     eth_1_1_subnet_mask: "255.255.255.0"
   txwac02sw01:
-    golden_config: "3011-golden"
+    golden_config: "3560-golden"
     config_file: "txwac02sw01.txt"
     default_gw: "10.8.4.1"
     hostname: "txwac02sw01"
