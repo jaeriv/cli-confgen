@@ -1,0 +1,22 @@
+---
+# Example data below.
+# The 'golden_config' key looks for the file name given within the 'templates' directory 
+#   and assumes a .j2 extension(don't include extension in value)
+
+site_a:
+  device_a:
+    golden_config: "example-golden"
+    config_file: "device_a.txt"
+    default_gw: "10.8.1.1"
+    hostname: "device_a"
+    eth_1_1_ip: "10.8.1.19"
+    eth_1_1_subnet_mask: "255.255.255.0"
+site_b:
+  device_b:
+    golden_config: "example-golden"
+    config_file: "device_b.txt"
+    default_gw: "10.8.2.1"
+    hostname: "device_b"
+    eth_1_1_ip: "10.8.2.21"
+    eth_1_1_subnet_mask: "255.255.255.0"
+...
