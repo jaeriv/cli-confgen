@@ -30,12 +30,14 @@ def cli():
 @cli.command()
 def list_variable_files():
     """List available variable files."""
-    click.echo("")
-    click.echo("Current variable files in /variables:")
-    for file in get_current_var_files():
-        click.echo(file)
-    click.echo("")
-
+    try:
+        click.echo("")
+        click.echo("Current variable files in /variables:")
+        for file in get_current_var_files():
+            click.echo(file)
+        click.echo("")
+    except FileNotFoundError as error:
+        return click.echo("The 'variables' directory is missing.")
 @cli.command()
 @variable_file_argument
 def list_sites(variable_file):
