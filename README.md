@@ -7,7 +7,7 @@ CLI - ConfGen is a Python CLI tool created with the purpose of generating config
     git clone https://github.com/jaeriv/cli-confgen
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage & Commands
